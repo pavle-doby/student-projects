@@ -1,0 +1,90 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "images": [
+    {
+      "id": 0,
+      "text": "Naleteh na ovu, meni jako zanimljivu sliku... :D",
+      "type": "motivacija",
+      "likes": 0,
+      "comments": [
+        {},
+        {}
+      ],
+      "src": "https://cdn1.imggmi.com/uploads/2018/6/6/f5eebaa0bc78b805b6a35f4d81e7d3bd-full.jpg",
+      "alt": "Slika nije pronadjena!"
+    },
+    {
+      "id": 1,
+      "text": "Bali, Indonezija :D !",
+      "type": "motivacija",
+      "likes": 0,
+      "comments": [
+        {},
+        {}
+      ],
+      "src": "https://cdn1.imggmi.com/uploads/2018/6/6/06d2f6d675002b99b89eb917af12481a-full.png",
+      "alt": "Slika nije pronadjena!"
+    },
+    {
+      "id": 2,
+      "text": "Zveszda koja umire, poznatija kao Bozije oko!",
+      "type": "motivacija",
+      "likes": 0,
+      "comments": [
+        {},
+        {}
+      ],
+      "src": "https://cdn1.imggmi.com/uploads/2018/6/6/28fcbdc83c049d7c8254013d9c9fa020-full.jpg",
+      "alt": "Slika nije pronadjena!"
+    },
+    {
+      "id": 3,
+      "text": "Snaga ne dolazi iz fizickih kapaciteta. Ona dolazi iz nesalomljive volje!",
+      "type": "motivacija",
+      "likes": 0,
+      "comments": [
+        {},
+        {}
+      ],
+      "src": "https://cdn1.imggmi.com/uploads/2018/6/6/2baf6b03cf9cc7692e0498627461b192-full.jpg",
+      "alt": "Slika nije pronadjena!"
+    },
+    {
+      "id": 4,
+      "text": "Bes je veliki naboj motivacije, koja moze jako dobro da se iskoristi ako smo svesni toga!",
+      "type": "motivacija",
+      "likes": 0,
+      "comments": [
+        {},
+        {}
+      ],
+      "src": "https://cdn1.imggmi.com/uploads/2018/6/6/14b89344dbb3f828f0c931def571ad5a-full.jpg",
+      "alt": "Slika nije pronadjena!"
+    },
+    {
+      "id": 5,
+      "text": "Lav, kralj zivotinja! :D ",
+      "type": "",
+      "likes": 0,
+      "comments": [],
+      "src": "https://thenypost.files.wordpress.com/2018/02/man-eaten-by-lions.jpg?quality=90&strip=all",
+      "alt": "Slika nije pronadjena."
+    }
+  ]
+}

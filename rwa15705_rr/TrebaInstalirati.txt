@@ -1,0 +1,3 @@
+Instalirati:
+- npm i react-redux
+- npm i redux

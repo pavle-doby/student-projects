@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "pozitiva": {
+    "quotes":[
+        {"id":0,"text":"If we index the card, we can get to the THX system through the primary SAS port!","type":"male stvari","likes":0,"comments":[{},{}]},
+        {"id":1,"text":"Use the back-end JSON sensor, then you can synthesize the multi-byte driver!","type":"motivacija","likes":0,"comments":[{},{}]},
+        {"id":2,"text":"Use the mobile TCP alarm, then you can reboot the redundant microchip!","type":"ispovesti","likes":0,"comments":[{},{}]},
+        {"id":3,"text":"indexing the card won't do anything, we need to calculate the neural PNG alarm!","type":"price","likes":0,"comments":[{},{}]},
+        {"id":4,"text":"You can't compress the microchip without calculating the neural SMS circuit!","type":"postao sam","likes":0,"comments":[{},{}]},
+        {"id":5,"text":"Try to connect the SMS monitor, maybe it will connect the haptic matrix!","type":"postao sam","likes":0,"comments":[{},{}]},
+        {"id":6,"text":"We need to transmit the optical RAM bus!","type":"mudorsti","likes":0,"comments":[{},{}]},
+        {"id":7,"text":"You can't calculate the firewall without backing up the solid state PNG capacitor!","type":"ispovesti","likes":0,"comments":[{},{}]},
+        {"id":8,"text":"Try to hack the CSS system, maybe it will override the 1080p monitor!","type":"price","likes":0,"comments":[{},{}]},
+        {"id":9,"text":"I'll generate the virtual SMS array, that should microchip the SMTP bus!","type":"mudorsti","likes":0,"comments":[{},{}]},
+        {"id":10,"text":"We need to index the virtual RSS hard drive!","type":"price","likes":0,"comments":[{},{}]},
+        {"id":11,"text":"If we synthesize the microchip, we can get to the FTP matrix through the 1080p RAM feed!","type":"ispovesti","likes":0,"comments":[{},{}]},
+        {"id":12,"text":"The CSS interface is down, synthesize the solid state bus so we can generate the SCSI port!","type":"male stvari","likes":0,"comments":[{},{}]},
+        {"id":13,"text":"The AI monitor is down, quantify the solid state microchip so we can navigate the JBOD port!","type":"lepe slike","likes":0,"comments":[{},{}]},{"id":14,"text":"If we quantify the program, we can get to the SCSI protocol through the wireless AI application!","type":"ispovesti","likes":0,"comments":[{},{}]},{"id":15,"text":"Use the solid state RSS driver, then you can quantify the bluetooth port!","type":"price","likes":0,"comments":[{},{}]},{"id":16,"text":"The SSL matrix is down, connect the haptic hard drive so we can generate the COM pixel!","type":"motivacija","likes":0,"comments":[{},{}]},{"id":17,"text":"Try to copy the JBOD card, maybe it will transmit the wireless panel!","type":"motivacija","likes":0,"comments":[{},{}]},{"id":18,"text":"transmitting the interface won't do anything, we need to connect the virtual ADP hard drive!","type":"ispovesti","likes":0,"comments":[{},{}]},{"id":19,"text":"You can't input the sensor without parsing the redundant SMTP sensor!","type":"motivacija","likes":0,"comments":[{},{}]},{"id":20,"text":"Try to parse the AI interface, maybe it will navigate the neural driver!","type":"price","likes":0,"comments":[{},{}]},{"id":21,"text":"Use the primary FTP protocol, then you can reboot the multi-byte sensor!","type":"price","likes":0,"comments":[{},{}]},{"id":22,"text":"The USB card is down, compress the open-source pixel so we can copy the RAM alarm!","type":"male stvari","likes":0,"comments":[{},{}]},{"id":23,"text":"I'll hack the primary HTTP firewall, that should driver the SMS bandwidth!","type":"ispovesti","likes":0,"comments":[{},{}]},        
+        
+        {"id":24,"text":"calculating the system won't do anything, we need to input the neural IB array!","type":"lepe slike","likes":0,"comments":[{},{}]}]
+
+  }
+}
