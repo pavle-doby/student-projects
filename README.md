@@ -17,5 +17,5 @@ Here are projects that I and my colleges created for Faculty courses.
 - Express.js
   ...
 
-> P.S. Don't look at these code for jugging, look at it for fun. <br>
+> P.S. Don't look at these code for jugging, look at it for fun. 🎉 <br>
 > Because all of these projects were created by students. 😁
