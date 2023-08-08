@@ -1,0 +1,5 @@
+
+file1.txt
+ruki.txt
+rule.txt
+sad1.txt

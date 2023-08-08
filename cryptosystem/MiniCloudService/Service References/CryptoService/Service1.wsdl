@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:57777/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:57777/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:57777/Service1.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:57777/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/CryptoServis" />
+      <xsd:import schemaLocation="http://localhost:57777/Service1.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/CryptoLibrary" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICryptoService_SetKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetKey" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_GenerateRandomKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateRandomKey" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_GenerateRandomKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateRandomKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetIV_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetIV" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetIV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetIVResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_GenerateRandomIV_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateRandomIV" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_GenerateRandomIV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateRandomIVResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetAlgorithmProperties_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetAlgorithmProperties" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetAlgorithmProperties_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetAlgorithmPropertiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_Crypt_InputMessage">
+    <wsdl:part name="parameters" element="tns:Crypt" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_Crypt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CryptResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_Decrypt_InputMessage">
+    <wsdl:part name="parameters" element="tns:Decrypt" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_Decrypt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DecryptResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SaveBytes_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBytes" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SaveBytes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBytesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_DecryptAndSave_InputMessage">
+    <wsdl:part name="parameters" element="tns:DecryptAndSave" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_DecryptAndSave_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DecryptAndSaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetCryptoLibrarySimpleSubstitution_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetCryptoLibrarySimpleSubstitution" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetCryptoLibrarySimpleSubstitution_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetCryptoLibrarySimpleSubstitutionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetCryptoLibraryKnapsack_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetCryptoLibraryKnapsack" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetCryptoLibraryKnapsack_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetCryptoLibraryKnapsackResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetCryptoLibraryXXTEA_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetCryptoLibraryXXTEA" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetCryptoLibraryXXTEA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetCryptoLibraryXXTEAResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetCryptoLibrarySHA2_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetCryptoLibrarySHA2" />
+  </wsdl:message>
+  <wsdl:message name="ICryptoService_SetCryptoLibrarySHA2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetCryptoLibrarySHA2Response" />
+  </wsdl:message>
+  <wsdl:portType name="ICryptoService">
+    <wsdl:operation name="SetKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoLibrary/SetKey" message="tns:ICryptoService_SetKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoLibrary/SetKeyResponse" message="tns:ICryptoService_SetKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateRandomKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoLibrary/GenerateRandomKey" message="tns:ICryptoService_GenerateRandomKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoLibrary/GenerateRandomKeyResponse" message="tns:ICryptoService_GenerateRandomKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetIV">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoLibrary/SetIV" message="tns:ICryptoService_SetIV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoLibrary/SetIVResponse" message="tns:ICryptoService_SetIV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateRandomIV">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoLibrary/GenerateRandomIV" message="tns:ICryptoService_GenerateRandomIV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoLibrary/GenerateRandomIVResponse" message="tns:ICryptoService_GenerateRandomIV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetAlgorithmProperties">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoLibrary/SetAlgorithmProperties" message="tns:ICryptoService_SetAlgorithmProperties_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoLibrary/SetAlgorithmPropertiesResponse" message="tns:ICryptoService_SetAlgorithmProperties_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Crypt">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoLibrary/Crypt" message="tns:ICryptoService_Crypt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoLibrary/CryptResponse" message="tns:ICryptoService_Crypt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Decrypt">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoLibrary/Decrypt" message="tns:ICryptoService_Decrypt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoLibrary/DecryptResponse" message="tns:ICryptoService_Decrypt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoService/GetData" message="tns:ICryptoService_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoService/GetDataResponse" message="tns:ICryptoService_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoService/GetDataUsingDataContract" message="tns:ICryptoService_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoService/GetDataUsingDataContractResponse" message="tns:ICryptoService_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveBytes">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoService/SaveBytes" message="tns:ICryptoService_SaveBytes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoService/SaveBytesResponse" message="tns:ICryptoService_SaveBytes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DecryptAndSave">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoService/DecryptAndSave" message="tns:ICryptoService_DecryptAndSave_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoService/DecryptAndSaveResponse" message="tns:ICryptoService_DecryptAndSave_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetCryptoLibrarySimpleSubstitution">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoService/SetCryptoLibrarySimpleSubstitution" message="tns:ICryptoService_SetCryptoLibrarySimpleSubstitution_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoService/SetCryptoLibrarySimpleSubstitutionResponse" message="tns:ICryptoService_SetCryptoLibrarySimpleSubstitution_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetCryptoLibraryKnapsack">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoService/SetCryptoLibraryKnapsack" message="tns:ICryptoService_SetCryptoLibraryKnapsack_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoService/SetCryptoLibraryKnapsackResponse" message="tns:ICryptoService_SetCryptoLibraryKnapsack_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetCryptoLibraryXXTEA">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoService/SetCryptoLibraryXXTEA" message="tns:ICryptoService_SetCryptoLibraryXXTEA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoService/SetCryptoLibraryXXTEAResponse" message="tns:ICryptoService_SetCryptoLibraryXXTEA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetCryptoLibrarySHA2">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICryptoService/SetCryptoLibrarySHA2" message="tns:ICryptoService_SetCryptoLibrarySHA2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICryptoService/SetCryptoLibrarySHA2Response" message="tns:ICryptoService_SetCryptoLibrarySHA2_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICryptoService" type="tns:ICryptoService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SetKey">
+      <soap:operation soapAction="http://tempuri.org/ICryptoLibrary/SetKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateRandomKey">
+      <soap:operation soapAction="http://tempuri.org/ICryptoLibrary/GenerateRandomKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetIV">
+      <soap:operation soapAction="http://tempuri.org/ICryptoLibrary/SetIV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateRandomIV">
+      <soap:operation soapAction="http://tempuri.org/ICryptoLibrary/GenerateRandomIV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetAlgorithmProperties">
+      <soap:operation soapAction="http://tempuri.org/ICryptoLibrary/SetAlgorithmProperties" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Crypt">
+      <soap:operation soapAction="http://tempuri.org/ICryptoLibrary/Crypt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Decrypt">
+      <soap:operation soapAction="http://tempuri.org/ICryptoLibrary/Decrypt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/ICryptoService/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/ICryptoService/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveBytes">
+      <soap:operation soapAction="http://tempuri.org/ICryptoService/SaveBytes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DecryptAndSave">
+      <soap:operation soapAction="http://tempuri.org/ICryptoService/DecryptAndSave" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCryptoLibrarySimpleSubstitution">
+      <soap:operation soapAction="http://tempuri.org/ICryptoService/SetCryptoLibrarySimpleSubstitution" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCryptoLibraryKnapsack">
+      <soap:operation soapAction="http://tempuri.org/ICryptoService/SetCryptoLibraryKnapsack" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCryptoLibraryXXTEA">
+      <soap:operation soapAction="http://tempuri.org/ICryptoService/SetCryptoLibraryXXTEA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCryptoLibrarySHA2">
+      <soap:operation soapAction="http://tempuri.org/ICryptoService/SetCryptoLibrarySHA2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_ICryptoService" binding="tns:BasicHttpBinding_ICryptoService">
+      <soap:address location="http://localhost:57777/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

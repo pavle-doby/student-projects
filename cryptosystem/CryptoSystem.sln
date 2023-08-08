@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoServis", "CryptoServis\CryptoServis.csproj", "{16B2BC15-13AC-4891-97E7-FF149A694CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoClient", "CryptoClient\CryptoClient.csproj", "{FD60C1A0-1420-4513-9088-EFCD819BD454}"
+	ProjectSection(ProjectDependencies) = postProject
+		{16B2BC15-13AC-4891-97E7-FF149A694CDD} = {16B2BC15-13AC-4891-97E7-FF149A694CDD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoLibrary", "CryptoLibrary\CryptoLibrary.csproj", "{8D2096DD-94EB-47BD-8467-10C1AB1B5E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniCloudClient", "MiniCloudClient\MiniCloudClient.csproj", "{97B4855A-A1E6-4818-91B5-D84E9C9A5236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDirectoryLibrary", "MyDirectoryLibrary\MyDirectoryLibrary.csproj", "{B89D06B4-9078-4BD4-9405-629748BD51A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniCloudService", "MiniCloudService\MiniCloudService.csproj", "{C06C5BDD-BC8C-48BD-A02C-92D1530CC70C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{16B2BC15-13AC-4891-97E7-FF149A694CDD} = {16B2BC15-13AC-4891-97E7-FF149A694CDD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16B2BC15-13AC-4891-97E7-FF149A694CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B2BC15-13AC-4891-97E7-FF149A694CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B2BC15-13AC-4891-97E7-FF149A694CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B2BC15-13AC-4891-97E7-FF149A694CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD60C1A0-1420-4513-9088-EFCD819BD454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD60C1A0-1420-4513-9088-EFCD819BD454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD60C1A0-1420-4513-9088-EFCD819BD454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD60C1A0-1420-4513-9088-EFCD819BD454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2096DD-94EB-47BD-8467-10C1AB1B5E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2096DD-94EB-47BD-8467-10C1AB1B5E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2096DD-94EB-47BD-8467-10C1AB1B5E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2096DD-94EB-47BD-8467-10C1AB1B5E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B4855A-A1E6-4818-91B5-D84E9C9A5236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B4855A-A1E6-4818-91B5-D84E9C9A5236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B4855A-A1E6-4818-91B5-D84E9C9A5236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B4855A-A1E6-4818-91B5-D84E9C9A5236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89D06B4-9078-4BD4-9405-629748BD51A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89D06B4-9078-4BD4-9405-629748BD51A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89D06B4-9078-4BD4-9405-629748BD51A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89D06B4-9078-4BD4-9405-629748BD51A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06C5BDD-BC8C-48BD-A02C-92D1530CC70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06C5BDD-BC8C-48BD-A02C-92D1530CC70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06C5BDD-BC8C-48BD-A02C-92D1530CC70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06C5BDD-BC8C-48BD-A02C-92D1530CC70C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
