@@ -1,0 +1,24 @@
+# RideAlong - WebApp
+
+1)Instaliranje zavisnosti:
+-uci u folder klijenta (./ridealong/ra-app)
+-otvoriti cmd
+-izvrsiti komandu: npm install
+-uci u folder servisa (./ridealong/ra-server)
+-otvoriti cmd
+-izvrsiti komandu: npm install
+
+2)Pokretanje aplikacije:
+
+*Pokrenuti Redis i Neo4j server
+
+*Pokretanje klijenta
+-uci u folder klijent (./ridealong/ra-app)
+-otvoriti cmd
+-pokrenuti klijenta komandom: ng serve --open
+
+Pokretanje servisa
+-uci u folder servera (./ridealong/ra-server)
+-otvoriti cmd
+-pokrenuti express komandom: node index.js
+-pokrenuti socket.io komanom: node messaging.js
