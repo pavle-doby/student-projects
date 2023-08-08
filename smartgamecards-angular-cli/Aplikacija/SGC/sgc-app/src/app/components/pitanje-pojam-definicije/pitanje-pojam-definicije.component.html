@@ -1,0 +1,34 @@
+<div class="card card-body" >
+        <div class="card card-body text-center">
+            {{question.kartica.pojam}}
+        </div>
+        <div class="card card-body">
+            <div 
+            *ngFor = "let def of defs"
+            (click) = "submitAnswer(def)"
+            class="btn btn-outline-primary text-center"
+            data-toggle="collapse" 
+            [attr.href]="href"
+            role="button" 
+            aria-expanded="false" 
+            aria-controls="collapseExample"> 
+            {{def}}
+            </div>
+            <div class="collapse" [id]="idTarget">
+                    <div class="card">
+                        <div
+                        *ngIf = "defForIf === answer"
+                        class="btn btn-success text-center"
+                        >
+                        WELL DONE!
+                        </div>
+                        <div
+                        *ngIf = "defForIf !== answer"
+                        class="btn btn-danger text-center"
+                        >
+                        WRONG ANSWER
+                        </div>
+                    </div>
+            </div>
+        </div>
+</div>

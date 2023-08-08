@@ -1,0 +1,21 @@
+<div class="row">
+        <div class="col"></div>
+        <div class="col-8">
+            <app-card-add-db></app-card-add-db>
+            <div 
+            class="card"
+            >
+              <div 
+              *ngFor="let kartica of cards$ | async" 
+              class="">
+                
+                <app-card-change 
+                [kartica]="kartica"> 
+                </app-card-change>
+            
+              </div>
+            </div>
+        </div>
+        <div class="col"></div>
+      
+</div>

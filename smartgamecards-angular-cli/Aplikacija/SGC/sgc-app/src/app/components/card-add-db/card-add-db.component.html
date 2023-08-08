@@ -1,0 +1,59 @@
+<div class="card text-white bg-secondary my-4 text-center">
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExampleCardAddDB" role="button" aria-expanded="false" aria-controls="collapseExample">
+      NEW CARD
+  </a>
+</div>
+<!-- Content Row -->
+<div class="collapse" id="collapseExampleCardAddDB" >
+  <div class="row">
+    <div class="col-md-6 mb-6">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                <label for="exampleFormControlTextarea1">TERM</label>
+
+                    <div class="form-group">
+                        <textarea 
+                        class="form-control text-center" 
+                        id="exampleFormControlTextarea1" 
+                        rows="3"
+                        [(ngModel)] = "card.pojam"
+                        style="font-weight: bold;"                      
+                        >
+                        </textarea>
+                        <br />
+                    </div>
+                </div>
+            </div>
+    </div>
+            <!-- /.col-md-4 -->
+    <div class="col-md-6 mb-6">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <label for="exampleFormControlTextarea1">DEFINITION</label>
+                    <div class="form-group" >
+                        <!-- <h2 class="card-title text-center">{{kartica.definicija}}</h2> -->
+                        <textarea 
+                        class="form-control text-center" 
+                        id="exampleFormControlTextarea1" 
+                        rows="3"
+                        [(ngModel)] = "card.definicija"  
+                        style="font-weight: bold;"                      
+                        >
+                        </textarea>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                <button
+                class="btn btn-primary"
+                (click) = "addCardToDatabase()"
+                >ADD
+                </button>
+                </div>
+            </div>
+    </div>
+  </div>
+
+</div>
+<!-- /.row -->
+
+

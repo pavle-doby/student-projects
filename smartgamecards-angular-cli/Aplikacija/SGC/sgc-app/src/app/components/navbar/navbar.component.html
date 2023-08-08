@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded">
+    <a class="navbar-brand" routerLink="/home">SGC
+        <img src="https://thumb.ibb.co/gE5FFJ/logo.jpg" style="width: 90px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample09">
+      <ul class="navbar-nav mr-auto">
+          <button class="btn btn-primary" data-target="#ModalLogin" data-toggle="modal">LOG IN</button>
+          <button class="btn btn-primary" data-target="#ModalSignUp" data-toggle="modal">SIGN UP</button>
+
+      </ul>
+      <form class="form-inline my-2 my-md-0">
+          <li class="btn btn-primary"  routerLink="/create" (click) = "clearCardState()">
+            <img src="http://icons.iconarchive.com/icons/double-j-design/super-mono-3d/32/button-round-plus-icon.png">        
+            CREATE
+          </li>
+          <div class="nav-item active">
+              <div 
+              *ngIf = 'user === "error"'
+              class="btn btn-primary" 
+              routerLink="/profile">
+              <img src="http://icons.iconarchive.com/icons/double-j-design/super-mono-3d/32/user-icon.png">        
+              PROFILE
+          </div>
+          <div
+            *ngIf = 'user !== undefined && user !== "" && user !== "error"' 
+            class="btn btn-primary" 
+            routerLink="/profile">
+            <img src="http://icons.iconarchive.com/icons/double-j-design/super-mono-3d/32/user-icon.png">        
+  
+            {{user | uppercase}}
+            </div>
+            <div 
+            *ngIf = 'user === undefined  || user === ""'
+            class="btn btn-primary" 
+            routerLink="/profile">
+            <img src="http://icons.iconarchive.com/icons/double-j-design/super-mono-3d/32/user-icon.png">        
+  
+            PROFILE
+          </div>
+        </div>
+        <label class="btn btn-primary"  routerLink="/home">
+          <img src="http://icons.iconarchive.com/icons/double-j-design/super-mono-3d/32/home-icon.png">        
+            HOME
+        </label>
+
+
+
+      </form>
+    </div>
+  </nav>
+  <app-login></app-login>
+  <app-signup></app-signup>

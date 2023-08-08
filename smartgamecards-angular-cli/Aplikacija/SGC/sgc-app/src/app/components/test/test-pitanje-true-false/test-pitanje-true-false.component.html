@@ -1,0 +1,49 @@
+<div class="row">
+    <div class="col">
+        <div
+        *ngFor = "let question of questions$ | async" 
+        >
+        <app-pitanje-true-false
+        *ngIf = "question.kartica !== null"
+        [pitanje] = "question">
+        </app-pitanje-true-false>
+        </div>
+    </div>
+    <div class="col">
+      <!-- ANSWER WITH OF -->
+      <div
+      class="cards"
+      *ngFor = "let answer of answers$ | async"
+      >
+        <div 
+        class="card bg-success text-center"
+        *ngIf = "answer.naucena === 1 "
+        >
+          <h5>RIGHT ANSWER</h5>
+          <h3 class="card bg-success text-center">{{answer.pojam}}</h3>
+          <br />          
+          <h3 class="card bg-success text-center">{{answer.definicija}}</h3>
+          
+        </div>
+        <div 
+        class="card bg-danger text-center"
+        *ngIf = "answer.naucena === -1"
+        >
+          <h5>RIGHT ANSWER</h5>
+          <h3 class="card bg-danger text-center">{{answer.pojam}}</h3>
+          <br />          
+          <h3 class="card bg-danger text-center">{{answer.definicija}}</h3>
+
+        </div>
+      </div>
+      
+      <!-- ANSWER WITH OF END-->
+    </div>
+</div>
+<div 
+class="card card-body bg-primary text-center text-light"
+(click) = "submitTest()"
+routerLink = '/test-end'
+>
+  <h5>SUBMIT TEST</h5>
+</div>

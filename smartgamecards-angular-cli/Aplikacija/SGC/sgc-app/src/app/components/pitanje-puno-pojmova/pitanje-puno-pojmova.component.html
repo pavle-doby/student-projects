@@ -1,0 +1,52 @@
+<div 
+*ngIf = "question !== null"
+class="card">
+        <div class="card text-center">
+                <h4>{{question.folder.ime}}</h4>
+        </div>
+        <div class="input-group mb-3">
+                <input 
+                type="text" 
+                class="form-control text-center" 
+                placeholder="              ENTER TERM" 
+                aria-label="TERM" 
+                aria-describedby="basic-addon2"
+                [(ngModel)] = "term" >
+                <div class="input-group-append">
+                        <button 
+                        class="btn btn-primary" 
+                        type="button"
+                        (click) = "next(term)">
+                        NEXT
+                        </button>
+                </div>
+        </div>
+        <br />
+        <div 
+        class="btn btn-primary"
+        routerLink = "/profile"
+        (click) = "finish()">
+                FINISH
+        </div>
+        <h4 class="text-center">TERMS</h4>
+        <div class="text-center">
+                <div 
+                class="card"
+                *ngFor = "let term of termList">
+                <div
+                class="card btn-outline-success"
+                *ngIf = 'term !== "WRONG"'                
+                >
+                {{term}}
+                </div>
+                <div
+                class="card btn-outline-danger"
+                *ngIf = 'term === "WRONG"'
+                >
+                {{term}}
+                </div>
+                </div>
+        </div>
+
+</div>
+

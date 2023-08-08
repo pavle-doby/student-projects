@@ -1,0 +1,24 @@
+<div class="card card-body">
+    <p class="card card-body text-center">
+      {{kartica.definicija}}
+    </p>
+    <div class="input-group mb-3">
+        <input 
+        type="text" 
+        class="form-control text-center" 
+        placeholder="                   ENTER TERM" 
+        aria-label="Recipient's username" 
+        aria-describedby="basic-addon2"
+        [(ngModel)] = "odgovor"
+        ng-click="sendAnswer(odgovor)" 
+        ng-keydown="$event.keyCode === 13 && sendAnswer(odgovor)"
+        >
+        <div class="input-group-append">
+          <button 
+          class="btn btn-outline-primary" 
+          type="button"
+          (click) = "sendAnswer(odgovor)"
+          >Submit</button>
+        </div>
+    </div>
+</div>

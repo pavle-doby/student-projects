@@ -1,0 +1,10 @@
+*Pokretanje aplikacije: 
+(Otvoriti SGC u VC)
+
+ *Pokretanje klijenta:
+  -cd sgc-app
+  -ng serve --open
+
+ *Pokretanje servera
+  -cd sgc-server
+  -nodemon server.mysql.js

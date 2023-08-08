@@ -1,0 +1,46 @@
+<!-- Button trigger modal card card-body bg-primary -->
+<div class="card btn-outline-primary text-center" data-toggle="modal" [attr.data-target]="dataTarget">
+  TEST
+</div>
+
+<!-- Modal -->
+<div class="modal fade" [id]="idModal" tabindex="-1" role="dialog" aria-labelledby="exampleTestStart" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Choose Test</h5>
+      </div>
+      <div class="modal-body">
+        {{folder.ime}}
+      </div>
+      <a 
+      class="btn btn-outline-primary" 
+      data-dismiss="modal" 
+      routerLink='/testDefincijaUnosPojma'
+      (click) = "startTest()"
+      >INSERT TERM</a>
+
+      <a  
+      class="btn btn-outline-primary"
+      data-dismiss="modal" 
+      routerLink='/test-true-false'
+      (click) = "startTrueFalseTest()"
+      >TRUE / FALSE</a>
+
+      <a 
+      class="btn btn-outline-primary"
+      data-dismiss="modal" 
+      routerLink="/test-pitanje-puno-pojmova"
+      (click) = "startPunoPojmovaTest()"
+      >AS MUCH AS POSIBLE</a>
+
+      <a 
+      class="btn btn-outline-primary"
+      data-dismiss="modal" 
+      routerLink="/test-pitanje-pojam-definicije"
+      (click) = "startPojamDefinicijeTest()"
+      >TERM DEFINITIONS</a>
+
+    </div>
+  </div>
+</div>

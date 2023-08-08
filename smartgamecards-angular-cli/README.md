@@ -1,0 +1,2 @@
+# SmartGameCards - Angular CLI
+

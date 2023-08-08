@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col"></div>
+    <div class="col-6" >
+      <div 
+      class="card"
+      *ngFor = "let answer of answers$ | async"
+      >
+      <div 
+      class="text-center"
+      *ngIf="answer !== undefined && answer.posecenost === 1">
+          <h3 class="card bg-success text-withe text-center">
+              RIGHT ANSWERS: {{answer.naucena}} %
+          </h3>
+          <h4 class="card bg-danger text-withe text-center">
+              WRONG ANSWERS: {{answer.tezina}} %
+          </h4>
+          <div 
+          class="btn btn-primary text-center "
+          routerLink='/profile'
+          data-dismiss="modal" 
+          (click) = "finish()"
+          >        
+          FINISH
+          </div>
+      </div>
+    
+      </div>
+    </div>
+    <div class="col"></div>
+</div>

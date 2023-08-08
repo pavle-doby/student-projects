@@ -1,0 +1,24 @@
+  <div 
+  class="card "
+  *ngIf = "folder !== undefined"
+  >
+    <div class="row">
+      <div
+      routerLink = "/card-list"
+      (click) = "showCardList()" 
+      class="card card-body col-3 bg-primary text-center">
+        <p>{{folder.ime}}</p>
+      </div>
+      <div class="col-5 text-center" >
+        <p>{{folder.opis}}</p>
+      </div>
+      <div class="col-2"> 
+        <app-test-start [folder] = "folder"></app-test-start> 
+      </div>
+      <div 
+      class="card col btn-outline-danger text-center" 
+      (click) = "deleteFolder()">
+        DELETE
+      </div>
+    </div>
+  </div>

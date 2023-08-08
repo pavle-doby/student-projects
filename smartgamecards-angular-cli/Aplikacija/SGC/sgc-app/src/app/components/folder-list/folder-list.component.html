@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col">
+      <div>
+        <div
+        class=""
+        *ngFor = "let folder of folders$ | async"
+        >
+          <app-folder [folder] = "folder"> </app-folder>            
+        </div>
+
+        <div
+        class=""
+        *ngFor = "let folder of folderi"
+        >
+          <app-folder [folder] = "folder"> </app-folder>            
+        </div>
+      </div>
+  </div>
+</div>
+

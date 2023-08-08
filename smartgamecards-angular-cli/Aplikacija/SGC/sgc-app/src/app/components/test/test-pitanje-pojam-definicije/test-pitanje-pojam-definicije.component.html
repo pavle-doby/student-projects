@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col"></div>
+  <div class="col">
+    <div 
+    *ngFor = "let question of questions$ | async"
+    class="card">
+      <app-pitanje-pojam-definicije
+      [question] = "question">
+      </app-pitanje-pojam-definicije>
+    </div>
+  </div>
+  <div class="col"></div>
+</div>
+<div 
+class="card card-body bg-primary text-center text-light"
+routerLink='/test-end'
+(click) = "submitTest()"
+>
+  <h5>SUBMIT TEST</h5>
+</div>

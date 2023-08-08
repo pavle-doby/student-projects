@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+  <a class="navbar-brand" href="#">SGC
+          <img src="https://thumb.ibb.co/gE5FFJ/logo.jpg" style="width: 90px">
+  </a>
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <form class="form-inline" > <!--action promeniti jer je stavljen bio php -->
+          <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-success" id="dugme" type="submit">SEARCH</button> -->
+        </form>
+    </li>
+    <li class="nav-item fixed-left">
+          <div class="btn-group">
+                  <a class="btn btn-primary" routerLink="/home" >HOME</a>
+                  <a class="btn btn-primary"  routerLink="/create"> CREATE </a>
+                  <a class="btn btn-primary" routerLink="/profile"> PROFILE </a>
+                  <!-- <a class="btn btn-primary" routerLink="/test">MULTIPLAYER</a> -->
+                  <!-- <a class="btn btn-primary" routerLink='/profile'>PLANNER</a> -->
+
+                  <button class="btn btn-primary"data-target="#ModalSignUp" data-toggle="modal" >SIGN UP</button>
+                  <button class="btn btn-primary " data-target="#ModalLogin" data-toggle="modal">LOG IN</button>
+          </div>
+    </li>
+  </ul>
+</nav>
+<app-login></app-login>
+<app-signup></app-signup>

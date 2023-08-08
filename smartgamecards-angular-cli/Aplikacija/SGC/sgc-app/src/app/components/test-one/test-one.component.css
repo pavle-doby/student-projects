@@ -1,0 +1,14 @@
+.modal .modal-dialog .modal-content{
+    background-color:#006dcc;
+    color:white;
+}
+.container{
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+#pitanjce{
+    background-color: white;
+    color: #006dcc;
+    border:3px solid black;
+}

@@ -1,0 +1,24 @@
+<div class="card card-body text-center">
+            <div class="card text-center">
+                    <label class="text-center">{{this.pitanje.pojam}}</label>  
+            </div>
+            <div class="card text-center">
+                    <label class="text-center">{{this.pitanje.definicija}}</label>  
+            </div>
+    <div class="row">
+        <div class="col-2"></div>
+
+        <div class="col btn btn-outline-primary"
+        (click) = "submitAnswer(true)">
+        True
+        </div>
+
+        <div 
+        class="col btn btn-outline-danger"
+        (click) = "submitAnswer(false)">
+        False
+        </div>
+
+        <div class="col-2"></div>
+    </div>
+</div>

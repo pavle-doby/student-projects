@@ -1,0 +1,51 @@
+<div class="input-group input-group-lg">
+  <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-lg" >NAME</span>
+  </div>
+  <input 
+  type="text" 
+  class="form-control" 
+  aria-label="Large" 
+  aria-describedby="inputGroup-sizing-sm" 
+  placeholder="Enter name"
+  [(ngModel)] = "naslov"
+  >
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default" >DESCRIPTION</span>
+  </div>
+  <input 
+  type="text" 
+  class="form-control" 
+  aria-label="Default" 
+  aria-describedby="inputGroup-sizing-default" 
+  placeholder="Enter decription"
+
+  [(ngModel)] = "opis"
+  >
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-default" >TAG</span>
+  </div>
+  <input 
+  type="text" 
+  class="form-control" 
+  aria-label="Default" 
+  aria-describedby="inputGroup-sizing-default" 
+  placeholder="Enter tag"
+
+  [(ngModel)] = "tag"
+  >
+</div>
+<button 
+class="btn btn-primary btn-lg" 
+(click) = "napraviFolder()">
+ADD FOLDER
+</button>
+
+<app-card-add></app-card-add>
+
+
+

@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="col-3"></div>
+  <div class="col">
+    <h4 class="text-center">
+      NEW FOLDERS
+    </h4>
+      <carousel>  
+          <slide
+          *ngFor = "let folder of folders$ | async"
+          >
+          <div class="text-center py-5 bg-success text-white">
+              <h2>{{folder.ime}}</h2>
+              <div class="lead">
+                <p>{{folder.opis}}</p>
+              </div>
+            </div>
+        
+          </slide>
+        </carousel>
+
+  </div>
+  <div class="col-3"></div>
+
+</div>
+
+<div class="row">
+
+  <div class="col"></div>
+  <div class="col-8">
+    <div class="card card-body">
+      <h3 class="text-center">POPULAR FOLDERS</h3>
+      <br />
+      <app-folder-list [naslov] = "POPULARNI"></app-folder-list>
+    </div>
+  </div>
+  <div class="col"></div>
+
+</div>
+

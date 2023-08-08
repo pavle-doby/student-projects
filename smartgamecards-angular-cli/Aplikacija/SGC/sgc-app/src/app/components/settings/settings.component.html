@@ -1,0 +1,73 @@
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        
+        <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseProfile" aria-expanded="false" aria-controls="collapseExample">
+            EDIT PROFILE
+        </button>
+        <form class="collapse" id="collapseProfile">
+                <div class="form-group">
+                  <label for="exampleInputName">NAME</label>
+                  <input type="text" class="form-control" id="exampleInputName" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputUsername">USERNAME</label>
+                    <input type="text" class="form-control" id="exampleInputUsername" placeholder="Enter your username">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleInputBio">BIO</label>
+                  <input type="text" class="form-control" id="exampleInputBio" placeholder="Enter something funny about you! :D ">
+                </div>
+                <button type="submit" class="btn btn-primary">SAVE CHANGES</button>
+        </form>
+
+
+        <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseSettings" aria-expanded="false" aria-controls="collapseExample">
+            ACCOUNT SETTINGS
+        </button>
+        <form class="collapse" id="collapseSettings">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">EMAIL</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">PASSWORD</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+    
+                <button type="submit" class="btn btn-primary">SAVE CHANGES</button>
+        </form>
+
+
+
+        <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseNotifications" aria-expanded="false" aria-controls="collapseExample">
+            NOTIFICATIONS
+        </button>
+        <form class="collapse" id="collapseNotifications">
+                <div>
+                  NOTIFICATIONS
+                </div>
+                <button type="submit" class="btn btn-primary">SAVE CHANGES</button>
+        </form>
+
+
+        <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseFeedback" aria-expanded="false" aria-controls="collapseExample">
+            SEND FEEDBACK
+        </button>
+        <form class="collapse" id="collapseFeedback">
+                <div class="form-group">
+                  <label for="exampleInputFeedback">HAVE FEEDBACK? WE'D LOVE TO HEAR IT!</label>
+                  <input type="email" class="form-control" id="exampleInputFeedback">
+                </div>
+    
+                <button type="submit" class="btn btn-success">SEND FEEDBACK</button>
+        </form>
+
+        <button 
+        (click) = "signOut()"
+        routerLink = "/home"
+        class="btn btn-outline-secondary" 
+        type="button">
+            SING OUT
+        </button>
+    </div>
+

@@ -1,0 +1,27 @@
+<div class="row text-center" >
+  <div class="col-4">
+    <h3>{{name}}</h3>
+
+    <div class="text-center">
+        <img src="https://cdn1.imggmi.com/uploads/2018/6/14/651fabc3ac7fde384b139ed996c492e1-full.png" 
+        class="rounded" 
+        alt="Slika korisnika nije pronadjena... :/">
+    </div>
+
+    <app-settings> </app-settings>
+  </div>
+  <div class="col-sm">
+    <div 
+    *ngIf = "user !== undefined"
+    class="card card-body">
+        <h3 *ngIf='user.ime !== "error"'>FOLDER LIST</h3>
+        <h3 
+        class="btn btn-danger"
+        *ngIf='user.ime === "error"'>
+        {{user.prezime | uppercase}} 
+        </h3>
+      <br />
+      <app-folder-list > </app-folder-list>
+    </div>
+  </div>
+</div>

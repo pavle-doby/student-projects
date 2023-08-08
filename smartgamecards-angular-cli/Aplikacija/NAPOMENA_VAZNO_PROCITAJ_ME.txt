@@ -1,0 +1,25 @@
+*Glavni folder aplikacije:
+ -SGC
+
+Instalirati na klijenut(sgc-app): 
+ -npm i node-modules ()
+ -npm i @ngrx/store
+ -npm i @ngrx/effects
+ -npm i rxjs
+ -npm i express // mozda
+ -npm i socket.io-client
+ -npm i ngx-bootstrap bootstrap
+
+ -npm i ngrx/entity --save
+
+* sve odjenom: 
+ -npm i node-modules @ngrx/store @ngrx/effects rxjs express socket.io-client ngx-bootstrap bootstrap ngrx/entity
+
+
+Instalirati na serveru(sgc-server):
+ -npm i nodemon
+ -npm i express
+ -npm i socket.io
+ -npm i mysql
+ -npm i http
+
