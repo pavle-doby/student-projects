@@ -1,0 +1,36 @@
+{
+  "verifikacija": [
+    {
+      "id": 10
+    },
+    {
+      "id": 1,
+      "pojam": "nesto",
+      "definicija": "neka definicija",
+      "slika": null,
+      "tag": null,
+      "tezina": null,
+      "naucena": false,
+      "naucenaProcenti": 0,
+      "posecenost": 0,
+      "setPitanja": []
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

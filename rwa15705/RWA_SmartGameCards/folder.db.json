@@ -1,0 +1,459 @@
+{
+  "folder": [
+    {
+      "id": 1,
+      "pojam": "pojam 1",
+      "definicija": "defincija 1",
+      "tezina": 5.4
+    },
+    {
+      "id": 2,
+      "pojam": "pojam 2",
+      "definicija": "defincija 2",
+      "tezina": 3.9
+    },
+    {
+      "id": 3,
+      "pojam": "pojam 3",
+      "definicija": "defincija 3",
+      "tezina": 3
+    },
+    {
+      "id": 4,
+      "pojam": "pojam 4",
+      "definicija": "defincija 4",
+      "tezina": 8.6
+    },
+    {
+      "id": 5,
+      "pojam": "pojam 5",
+      "definicija": "defincija 5",
+      "tezina": 7.3
+    },
+    {
+      "id": 6,
+      "pojam": "pojam 6",
+      "definicija": "defincija 6",
+      "tezina": 3.2
+    },
+    {
+      "id": 7,
+      "pojam": "pojam 7",
+      "definicija": "defincija 7",
+      "tezina": 9.6
+    },
+    {
+      "id": 8,
+      "pojam": "pojam 8",
+      "definicija": "defincija 8",
+      "tezina": 2.1
+    },
+    {
+      "id": 9,
+      "pojam": "pojam 9",
+      "definicija": "defincija 9",
+      "tezina": 0.2
+    },
+    {
+      "id": 10,
+      "pojam": "pojam 10",
+      "definicija": "defincija 10",
+      "tezina": 6.6
+    }
+  ],
+  "verifikacija": [
+    {
+      "id": "Rus",
+      "username": "Rus",
+      "email": "limuun23@gmail.com",
+      "password": "limunada",
+      "ime": "PAvle",
+      "prezime": "Marinkovic",
+      "zanimanje": "/",
+      "ocena": "10",
+      "slika": null,
+      "folderID": 1
+    },
+    {
+      "id": "nesto",
+      "email": "nesto",
+      "password": "nesto",
+      "ime": null,
+      "prezime": null,
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "slika": {},
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "nesto2",
+      "email": "nesto@nesto.com",
+      "password": "nesto",
+      "ime": null,
+      "prezime": null,
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "slika": {},
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "Neca",
+      "email": "nemanja@email.com",
+      "password": "nemanja",
+      "ime": null,
+      "prezime": null,
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "slika": {},
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "Toni",
+      "email": "nemanja@gmail.com",
+      "password": "nemanja",
+      "ime": "Nemanja",
+      "prezime": "Todorovic",
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "oblast": "Random",
+        "opis": "Podaci za proveru",
+        "slika": {},
+        "brKartica": 5,
+        "brSetovaKartica": 1,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 5,
+            "nizKartica": [
+              {
+                "id": 1,
+                "pojam": "pojam 1",
+                "definicija": "defincija 1",
+                "tezina": 5.4
+              },
+              {
+                "id": 2,
+                "pojam": "pojam 2",
+                "definicija": "defincija 2",
+                "tezina": 3.9
+              },
+              {
+                "id": 3,
+                "pojam": "pojam 3",
+                "definicija": "defincija 3",
+                "tezina": 3
+              },
+              {
+                "id": 4,
+                "pojam": "pojam 4",
+                "definicija": "defincija 4",
+                "tezina": 8.6
+              },
+              {
+                "id": 5,
+                "pojam": "pojam 5",
+                "definicija": "defincija 5",
+                "tezina": 7.3
+              }
+            ]
+          },
+          {
+            "n": 5,
+            "brKartica": 5,
+            "nizKartica": [
+              {
+                "id": 1,
+                "pojam": "pojam 11",
+                "definicija": "defincija 11",
+                "tezina": 5.4
+              },
+              {
+                "id": 2,
+                "pojam": "pojam 22",
+                "definicija": "defincija 22",
+                "tezina": 3.9
+              },
+              {
+                "id": 3,
+                "pojam": "pojam 33",
+                "definicija": "defincija 33",
+                "tezina": 3
+              },
+              {
+                "id": 4,
+                "pojam": "pojam 44",
+                "definicija": "defincija 44",
+                "tezina": 8.6
+              },
+              {
+                "id": 5,
+                "pojam": "pojam 55",
+                "definicija": "defincija 55",
+                "tezina": 7.3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "Filip",
+      "email": "filip@gmail.com",
+      "password": "filip",
+      "ime": null,
+      "prezime": null,
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "slika": {},
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "Cope",
+      "email": "petar@petar.com",
+      "password": "petar",
+      "ime": null,
+      "prezime": null,
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "slika": {},
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mavina",
+      "email": "mavina@gmail.com",
+      "password": "mavina",
+      "ime": null,
+      "prezime": null,
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "slika": {},
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "Aki",
+      "email": "aki@aki.com",
+      "password": "aki",
+      "ime": null,
+      "prezime": null,
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "slika": {},
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "pojam": "nesto",
+      "definicija": "neka definicija",
+      "slika": null,
+      "tag": null,
+      "tezina": null,
+      "naucena": false,
+      "naucenaProcenti": 0,
+      "posecenost": 0,
+      "setPitanja": []
+    },
+    {
+      "id": "sima",
+      "email": "sima@sima.com",
+      "password": "sima",
+      "ime": null,
+      "prezime": null,
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "slika": {},
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "rus",
+      "email": "rus@rus.com",
+      "password": "nestoo",
+      "ime": null,
+      "prezime": null,
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "slika": {},
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "rus23",
+      "email": "rus@rus.com",
+      "password": "rus",
+      "ime": null,
+      "prezime": null,
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "slika": {},
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "svoj",
+      "email": "svoj@sovoj.com",
+      "password": "svoj",
+      "ime": null,
+      "prezime": null,
+      "zanimanje": null,
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "id": null,
+        "oblast": null,
+        "opis": null,
+        "slika": null,
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "nesto99",
+      "email": "nesto99@nesto99.com",
+      "password": "nesto99",
+      "ime": "Nesto",
+      "prezime": "Nestovic",
+      "zanimanje": "Nesto",
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "id": null,
+        "oblast": null,
+        "opis": null,
+        "slika": null,
+        "brKartica": 0,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 0,
+            "nizKartica": [],
+            "boolPrikaz": false
+          }
+        ],
+        "boolPrikaz": false
+      }
+    }
+  ],
+  "comments": [
+    {}
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

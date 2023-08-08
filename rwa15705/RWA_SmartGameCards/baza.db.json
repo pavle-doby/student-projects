@@ -1,0 +1,922 @@
+{
+  "LogIn": [
+    {
+      "id": 1,
+      "username": ""
+    }
+  ],
+  "korisnici": [
+    {
+      "id": "rus",
+      "email": "rus@rus.com",
+      "password": "rus",
+      "ime": "Pavle",
+      "prezime": "Marinkovic",
+      "zanimanje": "Student",
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "id": 1,
+        "oblast": "Random",
+        "opis": "Podaci za proveru",
+        "slika": null,
+        "brKartica": 26,
+        "brSetovaKartica": 5,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 5,
+            "nizKartica": [
+              {
+                "id": 0,
+                "pojam": "obim zemlje",
+                "definicija": "40.075 km",
+                "tezina": 5.4,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 1,
+                "pojam": "html",
+                "definicija": "Jezik za obelezavanje sadrzaja stranice.",
+                "tezina": 3.9,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 2,
+                "pojam": "pojam 3",
+                "definicija": "defincija 3",
+                "tezina": 3,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 3,
+                "pojam": "pojam 4",
+                "definicija": "defincija 4",
+                "tezina": 8.6,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 4,
+                "pojam": "pojam 5",
+                "definicija": "defincija 5",
+                "tezina": 7.3,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 0,
+            "divSetKartica": {}
+          },
+          {
+            "n": 5,
+            "brKartica": 5,
+            "nizKartica": [
+              {
+                "id": 5,
+                "pojam": "pojam 11",
+                "definicija": "defincija 11",
+                "tezina": 5.4,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 6,
+                "pojam": "pojam 22",
+                "definicija": "defincija 22",
+                "tezina": 3.9,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 7,
+                "pojam": "Ljutska memorija",
+                "definicija": "Naucnici predpostavljaju da ljutska memorija gledana kroz elektronske mere iznosi negde od 3-1000 TB",
+                "tezina": 3,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 8,
+                "pojam": "pojam 44",
+                "definicija": "defincija 44",
+                "tezina": 8.6,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 9,
+                "pojam": "pojam 55",
+                "definicija": "defincija 55",
+                "tezina": 7.3,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 1,
+            "divSetKartica": {}
+          },
+          {
+            "n": 5,
+            "brKartica": 5,
+            "nizKartica": [
+              {
+                "id": 10,
+                "pojam": "Rus",
+                "definicija": "Ajdeee Ruki!",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 11,
+                "pojam": "Rus",
+                "definicija": "Sad bi trebalo da radi! :D ",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 12,
+                "pojam": "Rus3",
+                "definicija": "Zasto nece zadnje dugme lepo? ",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 13,
+                "pojam": "Sad",
+                "definicija": "Radi sefinski!",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 14,
+                "pojam": "ufff",
+                "definicija": "za put",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 2,
+            "divSetKartica": {}
+          },
+          {
+            "n": 5,
+            "brKartica": 5,
+            "nizKartica": [
+              {
+                "id": 15,
+                "pojam": "Sad ",
+                "definicija": "radi skroz",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 16,
+                "pojam": "provera 1 ",
+                "definicija": "radi 1",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 17,
+                "pojam": "provera 2",
+                "definicija": "radi 2 ",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 18,
+                "pojam": "provera 3",
+                "definicija": "rad li3? ",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 19,
+                "pojam": "probaa n",
+                "definicija": "ne znam koja",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 3,
+            "divSetKartica": {}
+          },
+          {
+            "n": 5,
+            "brKartica": 5,
+            "nizKartica": [
+              {
+                "id": 20,
+                "pojam": "idemo",
+                "definicija": "peti set",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 21,
+                "pojam": "sad",
+                "definicija": "nece",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 22,
+                "pojam": "sta",
+                "definicija": "be NECE!?!?!",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 23,
+                "pojam": "final",
+                "definicija": "test",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 24,
+                "pojam": "Doo",
+                "definicija": "Dajee see",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 4,
+            "divSetKartica": {}
+          },
+          {
+            "n": 5,
+            "brKartica": 1,
+            "nizKartica": [
+              {
+                "id": 25,
+                "pojam": "Jako dugacak pojam, dugacak, dugacak, dugacak, dugacak",
+                "definicija": "daa da",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 5,
+            "divSetKartica": {}
+          }
+        ],
+        "boolPrikaz": false,
+        "url": "http://localhost:3000/korisnici/",
+        "divFolder": {},
+        "divTest": {}
+      },
+      "url": "http://localhost:3000/korisnici/",
+      "folderID": 1,
+      "divKorisnik": {},
+      "divKorisnikFolder": {}
+    },
+    {
+      "id": "nesto",
+      "email": "nesto@nesto.com",
+      "password": "nesto",
+      "ime": "nesto",
+      "prezime": "nesto",
+      "zanimanje": "nesto",
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "id": null,
+        "oblast": null,
+        "opis": null,
+        "slika": null,
+        "brKartica": 11,
+        "brSetovaKartica": 2,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 5,
+            "nizKartica": [
+              {
+                "id": 0,
+                "pojam": "prva",
+                "definicija": "kartica",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 1,
+                "pojam": "druga",
+                "definicija": "kartica2",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 2,
+                "pojam": "kartica",
+                "definicija": "kartica3",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 3,
+                "pojam": "4",
+                "definicija": "cetri",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 4,
+                "pojam": "5",
+                "definicija": "5",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 0,
+            "divSetKartica": {}
+          },
+          {
+            "n": 5,
+            "brKartica": 5,
+            "nizKartica": [
+              {
+                "id": 5,
+                "pojam": "6",
+                "definicija": "6",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 3,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 6,
+                "pojam": "2",
+                "definicija": "2",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 3,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 7,
+                "pojam": "3",
+                "definicija": "3",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 2,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 8,
+                "pojam": "4",
+                "definicija": "4",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 2,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 9,
+                "pojam": "5",
+                "definicija": "5",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 2,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 1,
+            "divSetKartica": {}
+          },
+          {
+            "n": 5,
+            "brKartica": 1,
+            "nizKartica": [
+              {
+                "id": 10,
+                "pojam": "3-1",
+                "definicija": "3-11111111",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 2,
+            "divSetKartica": {}
+          }
+        ],
+        "boolPrikaz": false,
+        "url": "http://localhost:3000/korisnici/",
+        "divFolder": {},
+        "divTest": {}
+      },
+      "url": "http://localhost:3000/korisnici/",
+      "folderID": null,
+      "divKorisnik": {},
+      "divKorisnikFolder": {}
+    },
+    {
+      "id": "test",
+      "email": "test@test.com",
+      "password": "test",
+      "ime": "Pavle ",
+      "prezime": "Marinkovic",
+      "zanimanje": "Student",
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "id": null,
+        "oblast": null,
+        "opis": null,
+        "slika": null,
+        "brKartica": 1,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 1,
+            "nizKartica": [
+              {
+                "id": 0,
+                "pojam": "Prva",
+                "definicija": "Kartica",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 0,
+            "divSetKartica": {}
+          }
+        ],
+        "boolPrikaz": false,
+        "url": "http://localhost:3000/korisnici/",
+        "divFolder": {},
+        "divTest": {}
+      },
+      "url": "http://localhost:3000/korisnici/",
+      "folderID": null,
+      "divKorisnik": {},
+      "divKorisnikFolder": {}
+    },
+    {
+      "id": "novi",
+      "email": "novi@novi.com",
+      "password": "novi",
+      "ime": "novi",
+      "prezime": "novic",
+      "zanimanje": "Novo",
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "id": null,
+        "oblast": "Folder",
+        "opis": "koji sazdrzi kartice",
+        "slika": null,
+        "brKartica": 1,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 1,
+            "nizKartica": [
+              {
+                "id": 0,
+                "pojam": "Sedim ovde koliko?",
+                "definicija": "10 sati",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 0,
+            "divSetKartica": {}
+          }
+        ],
+        "boolPrikaz": false,
+        "url": "http://localhost:3000/korisnici/",
+        "divFolder": {},
+        "divTest": {}
+      },
+      "url": "http://localhost:3000/korisnici/",
+      "folderID": null,
+      "divKorisnik": {},
+      "divKorisnikFolder": {}
+    },
+    {
+      "id": "larisa",
+      "email": "larisa@larisa.com",
+      "password": "larisa",
+      "ime": "Larisa",
+      "prezime": "Marinkovic",
+      "zanimanje": "Navstavnica muzike",
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "id": null,
+        "oblast": "Folder",
+        "opis": "koji sazdrzi kartice",
+        "slika": null,
+        "brKartica": 2,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 2,
+            "nizKartica": [
+              {
+                "id": 0,
+                "pojam": "Akord",
+                "definicija": "tri zvuka",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 1,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 1,
+                "pojam": "Nota",
+                "definicija": "Graficki znak",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 0,
+            "divSetKartica": {}
+          }
+        ],
+        "boolPrikaz": false,
+        "url": "http://localhost:3000/korisnici/",
+        "divFolder": {},
+        "divTest": {}
+      },
+      "url": "http://localhost:3000/korisnici/",
+      "folderID": null,
+      "divKorisnik": {},
+      "divKorisnikFolder": {}
+    },
+    {
+      "id": "Toni",
+      "email": "toni@toni.com",
+      "password": "toni",
+      "ime": "Nemanja",
+      "prezime": "Todorovic",
+      "zanimanje": "Student",
+      "ocena": null,
+      "slika": {},
+      "folder": {
+        "id": null,
+        "oblast": "Folder",
+        "opis": "koji sazdrzi kartice",
+        "slika": null,
+        "brKartica": 3,
+        "brSetovaKartica": 0,
+        "nizSetKartica": [
+          {
+            "n": 5,
+            "brKartica": 3,
+            "nizKartica": [
+              {
+                "id": 0,
+                "pojam": "Kamata",
+                "definicija": "Iznos koji se placa na glavnicu periodicnosti.",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 1,
+                "pojam": "html",
+                "definicija": "To je jezik za oznacavanje stranice.",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              },
+              {
+                "id": 2,
+                "pojam": "Ovo je neki bas duzi pojam, msm ono bas bas bas bas bas",
+                "definicija": "Definicija je kratka ",
+                "slika": null,
+                "tag": null,
+                "tezina": null,
+                "naucena": false,
+                "naucenaProcenti": 0,
+                "posecenost": 0,
+                "setPitanja": [],
+                "brPitanja": 0,
+                "boolPrikaz": false,
+                "divKartica": {}
+              }
+            ],
+            "boolPrikaz": false,
+            "id": 0,
+            "divSetKartica": {}
+          }
+        ],
+        "boolPrikaz": false,
+        "url": "http://localhost:3000/korisnici/",
+        "divFolder": {},
+        "divTest": {}
+      },
+      "url": "http://localhost:3000/korisnici/",
+      "folderID": null,
+      "divKorisnik": {},
+      "divKorisnikFolder": {}
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

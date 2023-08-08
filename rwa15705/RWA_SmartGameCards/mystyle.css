@@ -1,0 +1,111 @@
+body{
+    color:white;
+
+    background-image: url("http://cdn.desktopwallpapers4.me/wallpapers/artistic/1920x1080/1/9556-blue-sky-1920x1080-artistic-wallpaper.jpg");
+
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button[className^="btn"]{
+    margin: 5px;
+}
+.divKorisnikFolder  .card.card-body{
+    float: left;
+    width: 50%;
+}
+div[id^="collapseExample"] .card.card-body{
+    width: 100%;
+    color: #428bca;
+}
+footer{
+    clear: both;
+}
+.badge.badge-dark{
+    clear: both;
+}
+#divTest div.card.card-body{
+    float: left;
+    min-width: 50%;
+}
+.divSignin{
+    float: right;
+    margin: 15px;
+    width: 30%;
+}
+.divSignin input{
+    width: 70%;
+}
+.divLogin{
+    float: right;
+    margin: 15px;
+    width: 30%;
+}
+.inputEmailorUsername, .inputPassword{
+    width: 70%;
+}
+div.card.card-body div.card-header:hover{
+    background-color: #428bca;
+    color: white;
+}
+div[id^="PitanjePojamDefinicije"] blockquote p{
+    color: #428bca;
+    text-align: center;
+}
+div[data-tacan-netacan="tacan"]{
+    background-color: #428bca;
+    color: white;
+}
+div[data-tacan-netacan="netacan"]{
+    background-color: #ff4444;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+div[id^="PitanjePojamDefinicije"]{
+    border: solid 1.5px;
+    border-color: #4c95d4;
+    margin: 5px;
+}
+
+div.card.card-body div.card-header{
+    text-align: center;
+}
+.karticaDefinicija, .karticaPojam{
+    text-align: center;
+    width: 100%;
+}
+.LogOut {
+    text-align: center;
+    color: darkblue;
+
+}
+.BackToTop{
+    color: darkblue;
+}
+.LogOut:hover, .BackToTop:hover{
+    color: darkred;
+}
+#divTest{
+    min-width: 25px;
+}
+@media (max-width: 420px){
+    #divTest{
+        float: left;
+        width: 100%;
+    }
+    .divKorisnikFolder div.card.card-body{
+        width: 100%;
+    }
+    .divLogin{
+        float: left;
+        width: 100%;
+    }
+    .divSignin{
+        float: left;
+        width: 100%;
+    }
+}
