@@ -3,6 +3,7 @@
     "**/.git": false
   },
   "files.exclude": {
-    "": false
+    "": true,
+    "**/.git": false
   }
 }
